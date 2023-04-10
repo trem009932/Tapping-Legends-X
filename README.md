@@ -1,1 +1,12 @@
-# Tapping-Legends-X
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.2.6) ~  Much Love, Ferib 
+
+]]--
+
+local v0=loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Rayfield/main/source"))();local v1=v0:CreateWindow({Name="🐦Tapping Legends X script birdhub🐦",LoadingTitle="🐦Tapping Legends X script birdhub🐦",LoadingSubtitle="🐦Tapping Legends X script birdhub🐦",ConfigurationSaving={Enabled=true,FolderName=nil,FileName="Big Hub"},Discord={Enabled=false,Invite="noinvitelink",RememberJoins=true},KeySystem=true,KeySettings={Title="🐦Tapping Legends X script birdhub🐦",Subtitle="Key System",Note="Join server for key",FileName="SiriusKey",SaveKey=true,GrabKeyFromSite=false,Key="admin"}});local v2=v1:CreateTab("Player",4483362458 -0 );local v3=v2:CreateSection("Player");local v4=v2:CreateSlider({Name="👤PLAYER SPEED👤",Range={1588 -(432 + 1156) ,1600 -(566 + 934) },Increment=33 -23 ,Suffix="PLAYER SPEED",CurrentValue=39 -29 ,Flag="Slider1",Callback=function(v8)game.Players.LocalPlayer.Character.Humanoid.WalkSpeed=v8;end});local v5=v1:CreateTab("AutoFarm",6507363023 -2024000565 );local v3=v5:CreateSection("Auto farm");local v6=v5:CreateButton({Name="🖱️Fast Auto clicker🖱️",Callback=function()while wait() do game:GetService("ReplicatedStorage").Remotes.Tap:FireServer();end end});local v6=v5:CreateButton({Name="🖱️Slow Auto Clicker🖱️",Callback=function()while wait(0.9 + 0 ) do game:GetService("ReplicatedStorage").Remotes.Tap:FireServer();end end});local v6=v5:CreateButton({Name=" 🥏auto rebirth🥏",Callback=function()while wait() do game:GetService("ReplicatedStorage").Remotes.Rebirth:FireServer(407 -(328 + 78) );end end});local v7=v1:CreateTab("Pets",4483363992 -(913 + 621) );local v3=v7:CreateSection("Pets");local v6=v7:CreateButton({Name="equip best pets must own",Callback=function()game:GetService("ReplicatedStorage").Remotes.EquipBest:InvokeServer();end});local v6=v7:CreateButton({Name="unquip all pets",Callback=function()game:GetService("ReplicatedStorage").Remotes.UnequipAll:InvokeServer();end});
